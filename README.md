@@ -4,7 +4,7 @@ STARLETS is a comprehensive computational framework for inferring clonal evoluti
 
 Please note that, we performed analysis using all ST slices from each person, thus results generated using this small dataset might be slightly different from what we did in our article.
 
-## ⚙️ Environment
+## Environment
 
 ### R Environment
 We tested with:
@@ -44,8 +44,6 @@ Other versions of scanpy and squidpy should also work.
   - `02.3.correlation.ipynb` - Mixed linear model for correlation analysis
 
 Data should be downloaded from Zenodo.
-
-Data should be download from Zenodo.
 
 ## Input and output from STARLETS
 
