@@ -29,18 +29,21 @@ We successfully ran with:
 Other versions of scanpy and squidpy should also work.
 
 ## Repository Structure
-STARLETS/
-├── 01.clone_inference/ # CNV analysis and Clone identification for ST data 
-│ ├── 1.1.spata2_infercnv.ipynb # CNV inference using SPATA2 R package
-│ ├── 1.2.cnv_cluster.ipynb # Clustering of CNV profiles and manullay assign malignant clones
-│ ├── 1.3.spatial_cnv_prob.ipynb # Posterior probability calculation of non-tumor and tumor clones
-│ ├── 1.4.plot_spatial_posterior.ipynb # Visualization of posterior probabilities
-│ └── gene_pos.txt # Gene position annotations for CNV inference in 1.1.spata2_infercnv.ipynb
-│
-├── 02.spatial_clonal_transition/ # Spatial clonal dynamics analysis
-│ ├── 02.1.calculate_coherence_score.ipynb # Spatial coherence quantification
-│ ├── 02.2.define_structure.ipynb # Spatial clonal transition region definition
-│ └── 02.3.correlation.ipynb # Mixed linear model for correlation analysis between clonal transition regions and spatial features
+
+**STARLETS/**
+- **01.clone_inference/** - CNV analysis and Clone identification for ST data
+  - `1.1.spata2_infercnv.ipynb` - CNV inference using SPATA2 R package
+  - `1.2.cnv_cluster.ipynb` - Clustering of CNV profiles and manually assign malignant clones
+  - `1.3.spatial_cnv_prob.ipynb` - Posterior probability calculation of non-tumor and tumor clones
+  - `1.4.plot_spatial_posterior.ipynb` - Visualization of posterior probabilities
+  - `gene_pos.txt` - Gene position annotations for CNV inference
+
+- **02.spatial_clonal_transition/** - Spatial clonal dynamics analysis
+  - `02.1.calculate_coherence_score.ipynb` - Spatial coherence quantification
+  - `02.2.define_structure.ipynb` - Spatial clonal transition region definition
+  - `02.3.correlation.ipynb` - Mixed linear model for correlation analysis
+
+Data should be downloaded from Zenodo.
 
 Data should be download from Zenodo.
 
