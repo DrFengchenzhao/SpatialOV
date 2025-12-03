@@ -43,7 +43,7 @@ Other versions of scanpy and squidpy should also work.
   - `02.2.define_structure.ipynb` - Spatial clonal transition region definition
   - `02.3.correlation.ipynb` - Mixed linear model for correlation analysis
 
-Data should be downloaded from Zenodo.
+Data should be downloaded from Zenodo (10.5281/zenodo.17765761).
 
 ## Input and output from STARLETS
 
